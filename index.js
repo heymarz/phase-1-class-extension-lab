@@ -7,7 +7,7 @@ class Polygon {
   }
   get perimeter(){
     return this.array.reduce(function(total, num){return total + num });
-  }
+  }}
   class Triangle extends Polygon {
     //inherits constructor from polygon
     get isValid(){
@@ -16,4 +16,3 @@ class Polygon {
       }
     }
   }
-}
